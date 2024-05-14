@@ -36,7 +36,7 @@ nav{
 li a{
     text-decoration: none;
     color: #313131;
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 600;
     padding: 10px 0;
 
@@ -82,6 +82,7 @@ nav label{
     width: 100%;
     height: 80vh;
     display: flex;
+    margin-bottom: 170px;
 }
 
 .primera-seccion .fondo{
@@ -89,7 +90,7 @@ nav label{
     z-index: -1;
     left: 850px;
     width: 1050px;
-    height: 85%;
+    height: 80%;
     background-image: url('../img/foto-pettine-.jpg');
     background-size: cover;
     clip-path: polygon(30% 0, 100% 0, 100% 100%, 0 100%);
@@ -123,15 +124,16 @@ nav label{
     width: fit-content;
     gap: 20px;
     margin-top: 20px;
-    height: 50px;
-    box-shadow: 0 0 20px rgba(34, 34, 34, 0.404);
+    height: 60px;
+    box-shadow: 0 0 5px rgba(34, 34, 34, 0.404);
+    border-radius: 10px;
 
     input{
         width: 350px;
         height: 100%;
         padding: 0 10px;
         border: none;
-        border-radius: 5px;
+        border-radius: 10px;
         font-size: 1rem;
     }
 
@@ -141,12 +143,43 @@ nav label{
         background-color: #AEC6CF;
         color: #313131;
         border: none;
-        border-radius: 5px;
+        border-radius: 10px;
         font-size: 1rem;
         cursor: pointer;
     }
 
 }
+
+.segunda-seccion {
+    height: 80vh;
+}
+
+.card-container{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:20px;
+    div{
+        width: 400px;
+        height: 100px;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(34, 34, 34, 0.404);
+        display: flex;
+    
+    }
+}
+
+.card-1, .card-2 {
+    flex: 1 1 calc(50% - 10px); /* Calcula el 50% menos la mitad del gap */
+}
+
+.card-3, .card-4, .card-5 {
+    flex: 1 1 calc(25% - 10px); /* Calcula el 25% menos la mitad del gap */
+}
+
 
 
 @media screen and (max-width: 980px) {
