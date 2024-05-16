@@ -124,7 +124,6 @@ nav label {
 
 .search-container {
   width: fit-content;
-  gap: 20px;
   margin-top: 20px;
   height: 60px;
   box-shadow: 0 0 5px rgba(34, 34, 34, 0.404);
@@ -135,7 +134,7 @@ nav label {
     height: 100%;
     padding: 0 10px;
     border: none;
-    border-radius: 10px;
+    border-radius: 10px 0 0 10px;
     font-size: 1rem;
   }
 
@@ -145,7 +144,7 @@ nav label {
     background-color: #aec6cf;
     color: #313131;
     border: none;
-    border-radius: 10px;
+    border-radius: 0 10px 10px 0;
     font-size: 1rem;
     cursor: pointer;
     font-weight: bold;
