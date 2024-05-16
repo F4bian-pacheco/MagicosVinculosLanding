@@ -202,7 +202,6 @@ nav label {
 
 .tercera-seccion {
   height: 100vh;
-  margin-top: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -352,7 +351,6 @@ nav label {
   flex-direction: column;
   justify-content: space-around;
   gap: 20px;
-  margin-bottom: 100px;
 }
 
 .testimonials-container {
