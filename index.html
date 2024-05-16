@@ -9,129 +9,136 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <label for="menu-btn">
-                <img src="img/menu.png" alt="">
-            </label>
-            <input type="checkbox" id="menu-btn">
-            <div class="logo">
-                <img src="img/full-logo.png" alt="">
-            </div>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="#segunda-seccion">Nosotros</a></li>
-                <li><a href="#tercera-seccion">Servicios</a></li>
-                <li><a href="index.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="primera-seccion" id="primera-seccion">
-            <div class="fondo"></div>
-            <div class="titulos-portada">
-                <h1>Encuentra todo lo necesario para tu matrimonio</h1>
-                <p>¡Tienes más de 500 proveedores para elegir!</p>
-                <div class="search-container">
-                    <input type="text" placeholder="Buscar proveedor">
-                    <button>Buscar</button>
+    <div class="container">
+        <div class="fondo-container"></div>
+        <header>
+            <nav>
+                <label for="menu-btn">
+                    <img src="img/menu.png" alt="">
+                </label>
+                <input type="checkbox" id="menu-btn">
+                <div class="logo">
+                    <img src="img/full-logo.png" alt="">
                 </div>
-            </div>
-        </section>
-        <section class="segunda-seccion" id="segunda-seccion">
-            <div class="texto-segunda-seccion">
-                <h2>Acerca de Nosotros</h2>
-                <p>
-                    En Mágicos Vínculos, llevamos más de 15 años haciendo realidad los sueños de parejas enamoradas.
-                    Desde 2009, hemos planificado y coordinado más de 500 bodas, cada una única y especial.
-
-                    Nos enorgullece ofrecer un servicio personalizado, cuidando cada detalle para que tu boda refleje tu
-                    historia y personalidad. Ya sea una ceremonia íntima en un jardín, una recepción elegante o una
-                    celebración temática, estamos aquí para hacerlo posible.
-
-                    Con un equipo de profesionales dedicados y los mejores proveedores, garantizamos excelencia y
-                    calidad en cada aspecto de tu evento. Permítenos ser parte de tu historia de amor y crear recuerdos
-                    inolvidables.
-
-                    En Mágicos Vínculos, tu boda es nuestra pasión.
-                </p>
-                <a href="#">Conoce más</a>
-            </div>
-            <div class="fondo-nosotros">
-                <img src="/img/nosotros.jpg" alt="">
-
-            </div>
-        </section>
-        <section class="tercera-seccion" id="tercera-seccion">
-            <div class="texto-tercera-seccion">
-                <h2>Disfruta organizando tu matrimonio</h2>
-                <p>Empieza a planificar gratis tu matrimonio con nosotros.</p>
-            </div>
-            <div class="card-container">
-                <div class="card-1">
-                    <h2>Lugares para matrimonio</h2>
-                    <p>Chequea las fotos, opiniones y mucho más. ¡Contáctalos desde aquí!</p>
-                    <a href="#">Busca lugares</a>
-                </div>
-                <div class="card-2">
-                    <h2>Proveedores de matrimonio</h2>
-                    <p>Encuentra a los mejores proveedores para tu matrimonio. ¡Contáctalos desde aquí!</p>
-                    <a href="#">Busca proveedores</a>
-                </div>
-                <div class="card-3">
-                    <h2>Lista de invitados</h2>
-                    <p>Organiza tu lista de invitados y envía las invitaciones desde aquí.</p>
-                    <a href="#">Organiza tu lista</a>
-                </div>
-                <div class="card-4">
-                    <h2>Presupuesto de matrimonio</h2>
-                    <p>Calcula tu presupuesto y lleva un control de tus gastos.</p>
-                    <a href="#">Calcula tu presupuesto</a>
-                </div>
-                <div class="card-5">
-                    <h2>Lista de regalos</h2>
-                    <p>Crea tu lista de regalos y compártela con tus invitados.</p>
-                    <a href="#">Crea tu lista</a>
-                </div>
-            </div>
-        </section>
-        <section class="contact-seccion">
-            <div>
-                <h2 >
-                    Contacta con nosotros
-                </h2>
-                <p>
-                    ¿Tienes alguna pregunta o sugerencia? ¡Estamos aquí para ayudarte!
-                </p>
-            </div>
-
-            <form class="contact-form">
-
-                <div class="form-group-container">
-                    <div class="form-group">
-                        <label for="name" class="form-label">Name</label>
-                        <input id="name" name="name" class="form-input" placeholder="Your name" type="text" />
-                    </div>
-                    <div class="form-group">
-                        <label for="email" class="form-label">Email</label>
-                        <input id="email" name="email" class="form-input" placeholder="Your email" type="email" />
-                    </div>
-                    <div class="form-group">
-                        <label for="phone" class="form-label">Phone</label>
-                        <input id="phone" name="phone" class="form-input" placeholder="+1 (234) 56789" type="text" />
-                    </div>
-                    <div class="form-group">
-                        <label for="message" class="form-label">Message</label>
-                        <textarea class="form-textarea" id="message" name="message"
-                            placeholder="Your message"></textarea>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#segunda-seccion">Nosotros</a></li>
+                    <li><a href="#tercera-seccion">Servicios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="primera-seccion" id="primera-seccion">
+                <div class="fondo"></div>
+                <div class="titulos-portada">
+                    <h1>Encuentra todo lo necesario para tu matrimonio</h1>
+                    <p>¡Tienes más de 500 proveedores para elegir!</p>
+                    <div class="search-container">
+                        <input type="text" placeholder="Buscar proveedor">
+                        <button>Buscar</button>
                     </div>
                 </div>
-                <button class="form-submit" type="submit">Send Message</button>
-            </form>
+            </section>
+            <section class="segunda-seccion" id="segunda-seccion">
+                <div class="texto-segunda-seccion">
+                    <h2>Acerca de Nosotros</h2>
+                    <p>
+                        En Mágicos Vínculos, llevamos más de 15 años haciendo realidad los sueños de parejas enamoradas.
+                        Desde 2009, hemos planificado y coordinado más de 500 bodas, cada una única y especial.
 
-        </section>
+                        Nos enorgullece ofrecer un servicio personalizado, cuidando cada detalle para que tu boda
+                        refleje tu
+                        historia y personalidad. Ya sea una ceremonia íntima en un jardín, una recepción elegante o una
+                        celebración temática, estamos aquí para hacerlo posible.
 
-    </main>
+                        Con un equipo de profesionales dedicados y los mejores proveedores, garantizamos excelencia y
+                        calidad en cada aspecto de tu evento. Permítenos ser parte de tu historia de amor y crear
+                        recuerdos
+                        inolvidables.
+
+                        En Mágicos Vínculos, tu boda es nuestra pasión.
+                    </p>
+                    <a href="#">Conoce más</a>
+                </div>
+                <div class="fondo-nosotros">
+                    <img src="/img/nosotros.jpg" alt="">
+
+                </div>
+            </section>
+            <section class="tercera-seccion" id="tercera-seccion">
+                <div class="texto-tercera-seccion">
+                    <h2>Disfruta organizando tu matrimonio</h2>
+                    <p>Empieza a planificar gratis tu matrimonio con nosotros.</p>
+                </div>
+                <div class="card-container">
+                    <div class="card-1">
+                        <h2>Lugares para matrimonio</h2>
+                        <p>Chequea las fotos, opiniones y mucho más. ¡Contáctalos desde aquí!</p>
+                        <a href="#">Busca lugares</a>
+                    </div>
+                    <div class="card-2">
+                        <h2>Proveedores de matrimonio</h2>
+                        <p>Encuentra a los mejores proveedores para tu matrimonio. ¡Contáctalos desde aquí!</p>
+                        <a href="#">Busca proveedores</a>
+                    </div>
+                    <div class="card-3">
+                        <h2>Lista de invitados</h2>
+                        <p>Organiza tu lista de invitados y envía las invitaciones desde aquí.</p>
+                        <a href="#">Organiza tu lista</a>
+                    </div>
+                    <div class="card-4">
+                        <h2>Presupuesto de matrimonio</h2>
+                        <p>Calcula tu presupuesto y lleva un control de tus gastos.</p>
+                        <a href="#">Calcula tu presupuesto</a>
+                    </div>
+                    <div class="card-5">
+                        <h2>Lista de regalos</h2>
+                        <p>Crea tu lista de regalos y compártela con tus invitados.</p>
+                        <a href="#">Crea tu lista</a>
+                    </div>
+                </div>
+            </section>
+            <section class="contact-seccion" id="contacto">
+                <div>
+                    <h2>
+                        Contacta con nosotros
+                    </h2>
+                    <p>
+                        ¿Tienes alguna pregunta o sugerencia? ¡Estamos aquí para ayudarte!
+                    </p>
+                </div>
+
+                <form class="contact-form">
+
+                    <div class="form-group-container">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name</label>
+                            <input id="name" name="name" class="form-input" placeholder="Your name" type="text" />
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input id="email" name="email" class="form-input" placeholder="Your email" type="email" />
+                        </div>
+                        <div class="form-group">
+                            <label for="phone" class="form-label">Phone</label>
+                            <input id="phone" name="phone" class="form-input" placeholder="+1 (234) 56789"
+                                type="text" />
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-textarea" id="message" name="message"
+                                placeholder="Your message"></textarea>
+                        </div>
+                    </div>
+                    <button class="form-submit" type="submit">Send Message</button>
+                </form>
+
+            </section>
+
+        </main>
+    </div>
+
 </body>
 
 </html>
